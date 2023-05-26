@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.header{
+	width: 100%;
+	height: 100vh;
+	background-image: url(https://i.postimg.cc/P5f3wYJF/My-Reg-Back-2.jpg);
+	background-position: center;
+	background-size: cover;
+  overflow-x: hidden;
+}
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 8%;
+  transition: background 1s;
+}
+nav .logo{
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+nav .logo img{
+  width: 60px;
+  margin-right: 10px;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 10px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+nav:hover{
+  background: #fff;
+}
+nav:hover ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+nav:hover{
+  background: #fff;
+}
+nav:hover .logo{
+  color: #333;
+}
+nav:hover ul li a{
+  color: #333;
+}
+.vidwrapper{
+  width:100%;
+  height: 100%;
+  max-width: 460px;
+  margin: 3rem auto;
+}
+.vidcontainer{
+  width: 100%;
+  max-width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+.vidcontainer iframe, .vidcontainer video{
+  width: 100%;
+  max-width: 100%
+  height: 90%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
